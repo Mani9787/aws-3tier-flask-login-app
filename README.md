@@ -1,43 +1,37 @@
 # AWS Three-Tier Secure Web Application Architecture
+## Objective
+
+The objective of this project was to design and deploy a secure three-tier web application architecture on AWS using public and private subnets, EC2 instances, Amazon RDS, and Nginx reverse proxy while following cloud security best practices.
+## Skills Demonstrated
+
+- AWS EC2 Deployment
+- VPC Configuration
+- Public and Private Subnet Design
+- Security Group Configuration
+- Amazon RDS Management
+- Linux Administration
+- Nginx Reverse Proxy Setup
+- Flask Application Deployment
+- Network Troubleshooting
 Project Overview
 
 This project demonstrates the implementation of a secure 3-tier web architecture on AWS. The application is built using Flask and MySQL and was deployed using EC2 instances within a custom VPC setup including public and private subnets.
 
-Architecture
+## Architecture
 
-Public EC2 (Web Tier) – Nginx Reverse Proxy
+Public EC2 (Nginx Reverse Proxy)
+        │
+        ▼
+Private EC2 (Flask Backend)
+        │
+        ▼
+Amazon RDS (MySQL)
 
-Private EC2 (Application Tier) – Flask Backend
-
-Amazon RDS (Database Tier) – MySQL
-
-VPC with Public & Private Subnets
-
-Internet Gateway and NAT Gateway
-
-Security Group based access control
-
-Features
-
-User registration and storage in MySQL database
-
-Password hashing using Werkzeug for secure credential storage
-
-Reverse proxy configuration using Nginx
-
-Secure communication between Web, App, and DB tiers
-
-Environment variable based configuration management
-
-Technologies Used
-
-AWS (EC2, VPC, RDS, NAT Gateway)
-
-Python (Flask)
-
-MySQL
-
-Nginx
+VPC
+├── Public Subnet
+├── Private Subnet
+├── Internet Gateway
+└── NAT Gateway
 
 Linux
 
