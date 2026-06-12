@@ -1,4 +1,4 @@
-AWS 3-Tier Secure Login Application
+# AWS Three-Tier Secure Web Application Architecture
 Project Overview
 
 This project demonstrates the implementation of a secure 3-tier web architecture on AWS. The application is built using Flask and MySQL and was deployed using EC2 instances within a custom VPC setup including public and private subnets.
