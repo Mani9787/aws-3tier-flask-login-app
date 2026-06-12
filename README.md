@@ -19,19 +19,77 @@ This project demonstrates the implementation of a secure 3-tier web architecture
 
 ## Architecture
 
-Public EC2 (Nginx Reverse Proxy)
-        │
-        ▼
-Private EC2 (Flask Backend)
-        │
-        ▼
-Amazon RDS (MySQL)
+User
+   |
+Internet
+   |
+Web Server (Public EC2 + Nginx)
+   |
+Application Server (Private EC2 + Flask)
+   |
+Amazon RDS MySQL Database
 
-VPC
-├── Public Subnet
-├── Private Subnet
-├── Internet Gateway
-└── NAT Gateway
+Infrastructure:
+- Custom VPC
+- Public Subnet
+- Private App Subnet
+- Private DB Subnets
+- Internet Gateway
+- NAT Gateway
+- Route Tables
+- Security Groups
+
+  ## AWS Services Used
+
+- Amazon EC2
+- Amazon VPC
+- Amazon RDS MySQL
+- Internet Gateway
+- NAT Gateway
+- Elastic IP
+- Route Tables
+- Security Groups
+- Public & Private Subnets
+
+  ## Security Features
+
+- Private application deployment
+- Database isolation in private subnet
+- Security Group based access control
+- Password hashing using Werkzeug
+- Reverse Proxy using Nginx
+- Environment variable configuration
+
+  ## Challenges Solved
+
+- NAT Gateway configuration
+- Route Table association
+- EC2 to EC2 SSH connectivity
+- Flask to MySQL connectivity
+- Nginx reverse proxy setup
+- Security Group troubleshooting
+
+  ## Project Screenshots
+
+### VPC and Subnets
+
+![VPC](screenshots/vpc-subnets.png)
+
+### Security Groups
+
+![Security Groups](screenshots/security-groups.png)
+
+### EC2 Instances
+
+![EC2](screenshots/ec2-instances.png)
+
+### Signup Page
+
+![Signup](screenshots/signup-page.png)
+
+### Dashboard
+
+![Dashboard](screenshots/dashboard-page.png)
 
 Linux
 
