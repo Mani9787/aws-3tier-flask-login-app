@@ -91,9 +91,8 @@ Infrastructure:
 
 ![Dashboard](screenshots/dashboard-page.png)
 
-Linux
 
-Learning Outcomes
+##Learning Outcomes
 
 Implemented 3-tier architecture with network isolation
 
