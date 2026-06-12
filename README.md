@@ -68,28 +68,45 @@ Infrastructure:
 - Flask to MySQL connectivity
 - Nginx reverse proxy setup
 - Security Group troubleshooting
-
-  ## Project Screenshots
-
 ## VPC and Subnets
 
-![VPC](screenshots/VPC.png)
+![VPC](screenshots/vpc-subnets.png)
+
+## Internet Gateway
+
+![IGW](screenshots/internet-gateway.png)
+
+## Elastic IP
+
+![Elastic IP](screenshots/elastic-ip.png)
+
+## Route Table Association
+
+![Route Table](screenshots/route-table.png)
 
 ## Security Groups
 
-![Security Groups](screenshots/SecurityGroups.png)
+![Security Groups](screenshots/security-groups.png)
 
 ## EC2 Instances
 
-![EC2](screenshots/EC2.png)
+![EC2](screenshots/ec2-instances.png)
+
+## SSH Access to Web Server
+
+![SSH Web](screenshots/ssh-webserver.png)
+
+## SSH Access to Application Server
+
+![SSH App](screenshots/ssh-appserver.png)
 
 ## Signup Page
 
-![Signup](screenshots/Signup.png)
+![Signup](screenshots/signup-page.png)
 
 ## Dashboard
 
-![Dashboard](screenshots/Dashboard.png)
+![Dashboard](screenshots/dashboard.png)
 
 ##Learning Outcomes
 
