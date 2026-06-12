@@ -71,26 +71,25 @@ Infrastructure:
 
   ## Project Screenshots
 
-### VPC and Subnets
+## VPC and Subnets
 
-![VPC](screenshots/vpc-subnets.png)
+![VPC](screenshots/VPC.png)
 
-### Security Groups
+## Security Groups
 
-![Security Groups](screenshots/security-groups.png)
+![Security Groups](screenshots/SecurityGroups.png)
 
-### EC2 Instances
+## EC2 Instances
 
-![EC2](screenshots/ec2-instances.png)
+![EC2](screenshots/EC2.png)
 
-### Signup Page
+## Signup Page
 
-![Signup](screenshots/signup-page.png)
+![Signup](screenshots/Signup.png)
 
-### Dashboard
+## Dashboard
 
-![Dashboard](screenshots/dashboard-page.png)
-
+![Dashboard](screenshots/Dashboard.png)
 
 ##Learning Outcomes
 
